@@ -1,0 +1,8 @@
+{
+  "workspace": "<enter your workspace name in lowercase here>",
+  "identityProviderUrl": "https://api.bitbucket.org/2.0/workspaces/<enter your workspace name in lowercase here>/pipelines-config/identity/oidc",
+  "identityProviderAudiences": [
+        "ari:cloud:bitbucket::workspace/<enter your workspace audience UUID here>"
+  ],
+  "identityProviderThumbprints": []
+}
